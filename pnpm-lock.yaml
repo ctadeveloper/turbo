@@ -419,7 +419,6 @@ importers:
 
   packages/turbo-ignore:
     specifiers:
-      '@manypkg/find-root': ^1.1.0
       '@types/jest': ^27.4.0
       '@types/node': ^16.11.12
       eslint: ^8.20.0
@@ -427,10 +426,11 @@ importers:
       ts-jest: ^27.1.1
       tsconfig: workspace:*
       tsup: ^5.12.1
-      turbo-utils: workspace:*
+      turbo-utils: workspace:^0.0.0
       typescript: ^4.7.4
+    dependencies:
+      turbo-utils: link:../turbo-utils
     devDependencies:
-      '@manypkg/find-root': 1.1.0
       '@types/jest': 27.5.2
       '@types/node': 16.11.44
       eslint: 8.23.0
@@ -438,7 +438,6 @@ importers:
       ts-jest: 27.1.5_33teeovbg7qyb2atewgc6tchgq
       tsconfig: link:../tsconfig
       tsup: 5.12.9_typescript@4.7.4
-      turbo-utils: link:../turbo-utils
       typescript: 4.7.4
 
   packages/turbo-tracing-next-plugin:
