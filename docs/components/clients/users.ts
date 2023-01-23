@@ -448,6 +448,12 @@ export const users: Array<TurboUser> = [
     infoLink: "https://www.waggel.co.uk/",
     pinned: true,
   },
+    {
+    caption: "Mirror",
+    image: "/images/logos/miro.svg",
+    infoLink: "https://mirror.com/",
+    pinned: true,
+  },
   {
     caption: "n8n",
     image: "/images/logos/n8n.svg",
